@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render text: "hello, world!"
+    render text: "chemdank - powered by ruby on rails. coming your way soon!"
   end
 end
